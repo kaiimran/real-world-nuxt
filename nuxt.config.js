@@ -43,5 +43,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  // Change port from default port since JSON server is running on 3000
+  server: {
+    port: 3001 // default: 3000
+  },
+
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#39b982' },
 }
